@@ -5,21 +5,29 @@
     <style>
         body{
             background-image: url("bg.jpeg");
-            background-size: 1600px, 108px;
+            background-size:cover;
+            overflow: hidden;
+            margin: 20px;
         }
+
         #contact-home-btn, .sign-btn{
             padding: 5px;
-            font-size: 15px;
+            font-size: 20px;
             cursor: pointer;
+        }
+
+        textarea, input{
+            border-radius: 8px;
+            font-size: 20px;
         }
     </style>
 </head>
 <body>
     <div>
-        <marquee bgcolor="#FFFFF7"  behavior="scroll" direction="right" style="font-size: 30px;">Contact us to know more on Continents</marquee>
+        <marquee bgcolor="#FFFFF7" behavior="alternate"style="font-size: 30px; border-radius: 10px;">Contact us to know more on Continents</marquee>
     </div>
     <div class="home-button" align="center">
-        <a href="C:\Users\SWAPNIL\Documents\My Web Sites\CreditCource-sem4-20230425T082836Z-001\CreditCource-sem4\index.html"><input type="submit" value="Home" id="contact-home-btn"></a>
+        <a href="D:\SulajAcharya\Project Trials\CreditCourseSem4\index.html"><input type="submit" value="Home" id="contact-home-btn"></a>
     </div>
     <div align="right">
         <table>
@@ -36,15 +44,15 @@
             </tr>
         </table>
     </div>
-    <div align="center" style="margin:150px; font-size: 30px;">
-        <table style="background-color: rgba(100, 100, 100, 0.5); border: black solid 4px;">
+    <div align="center" style="margin-top: 75px;; font-size: 30px;">
+        <table style="background-color: rgba(0, 0, 0, 0.4); border: black solid 4px; border-radius: 10px; border-spacing: 10px;">
             <tr>
                 <td><font color="white">Full Name:</font></td>
                 <td><input type="text" name="name" id="uname"></td>
             </tr>
             <tr>
                 <td><font color="white">Contact:</font></td>
-                <td><input type="tel" name="contact" id="con"></td>
+                <td><input type="number" name="contact" id="con"></td>
             </tr>
             <tr>
                 <td><font color="white">E-mail:</font></td>
@@ -52,11 +60,11 @@
             </tr>
             <tr>
                 <td><font color="white">Message:</font></td>
-                <td><textarea name="msg" id="umsg" cols="30" rows="10" style="resize: none;"></textarea><td>
+                <td><textarea name="msg" id="umsg" cols="30" rows="5" style="resize: none;"></textarea><td>
             </tr>
-            <tr>
-                <td align="center"><input type="submit" name="submit" id="confirm"></td>
-                <td align="center"><input type="reset" name="reset" id="cancel"></td>
+            <tr align="center">
+                <td colspan="2"><input type="submit" name="submit" id="confirm"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="reset" name="reset" id="cancel"></td>
             </tr>
         </table>
     </div>
