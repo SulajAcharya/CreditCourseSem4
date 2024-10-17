@@ -3,36 +3,34 @@
 <head>
     <title>Sign-up Page</title>
     <style>
-        *{
-            margin:0;
-            padding:0;
-        }
         body{
             background-image: url("signup.jpg");
-            background-size: 1610px 1000px;
+            background-size: cover;
+            margin: 20px;
         }
-        #signup-home-btn, .sign-btn{
-            padding: 5px;
-            font-size: 15px;
-            cursor: pointer;
-        }
-        .sign-up-form{
-            font-size: px;
-        }
-        .form-font{
-            color: white;
-        }
+
         .sign-up-main{
             display: flex;
             align-items: center;
             justify-content: space-evenly;
+            margin-top: 60px;
+        }
+
+        td{
+            color: white;
+        }
+        input{
+            border-radius: 8px;
+            font-size: 20px;   
+            padding: 5px; 
+            cursor: pointer;
         }
     </style>
 </head>
 <body>
     <div>
-        <marquee bgcolor="#FFFFF7"  behavior="scroll" scrollamount=12 direction="right" style="font-size: 30px;">
-           Hey there! Welcome to Sign-up page
+        <marquee bgcolor="#FFFFF7" behavior="alternate" scrollamount="12" style="font-size: 30px; border-radius: 10px;">
+           Hey There! Welcome
         </marquee>
     </div>
     <div class="home-button" align="center">
@@ -40,29 +38,32 @@
     </div>
     <div class="sign-up-main">
         <div class="sign-img">
-            <img src="sign-up-here.png" alt="ImageNotLoading" height="490px" width="490px">
+            <img src="sign-up-here.png" alt="ImageNotLoading" height="450px" width="450px">
         </div>
-        <div class="sign-up-form" align="center" style="margin:150px; font-size: 50px;"style="margin:150px; font-size: 30px;">
-            <table style="background-color: rgba(100, 100, 100, 0.5); border: black solid 3px;">
+        <div class="sign-up-form" align="center" style="font-size: 30px;">
+            <table style="background-color: rgba(0, 0, 0, 0.7); border: black solid 4px; border-radius: 10px; border-spacing: 10px;">
                 <tr>
-                    <td><font color="white">Full Name:</font></td>
+                    <td>Full Name:</td>
                     <td><input type="text" name="name" id="uname"></td>
                 </tr>
                 <tr>
-                    <td><font color="white">E-mail:</font></td>
+                    <td>E-mail:</td>
                     <td><input type="email" name="email" id="uemail"></td>
-            </tr>
-            <tr>
-                <td><font color="white">Password:</font></td>
-                <td><input type="password" pattern="*"></td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <input type="submit" value="Sign up" class="sign-btn" onclick="alert('Thank you for signing up')">
-            </tr>
-        </table>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" pattern="*"></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <input type="submit" value="Sign up" class="sign-btn" onclick="alert('Thank you for signing up')">
+                </tr>
+                <tr>
+                    <td style="color: black;">Login Instead? &nbsp; <a href="login.html"><input type="submit" value="Login" id="contact-home-btn"></a></td>
+                </tr>
+            </table>
+        </div>
     </div>
-</div>
 </body>
 </html>
