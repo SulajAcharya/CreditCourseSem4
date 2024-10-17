@@ -1,56 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Sign-up Page</title>
+    <title>Login</title>
     <style>
-        *{
-            margin:0;
-            padding:0;
-        }
         body{
             background-image: url("login.jpg");
-            background-size: 1610px 1000px;
+            background-size: cover;
+            margin: 20px;
         }
-        #signup-home-btn, .sign-btn{
-            padding: 5px;
-            font-size: 15px;
-            cursor: pointer;
-        }
-        .sign-up-form{
-            font-size: px;
-        }
-        .form-font{
-            color: white;
-        }
+        
         .sign-up-main{
             display: flex;
             align-items: center;
             justify-content: space-evenly;
+            color: white;
+        }
+        input{
+            padding: 5px;
+            font-size: 20px;
+            cursor: pointer;
+            border-radius: 10px;
         }
     </style>
 </head>
 <body>
     <div>
-        <marquee bgcolor="#FFFFF7"  behavior="scroll" scrollamount=12 direction="right" style="font-size: 30px;">
-           Hey there! Welcome to Login page
+        <marquee bgcolor="#FFFFF7"  behavior="alternate" scrollamount=12 style="font-size: 30px; border-radius: 10px;">
+           Hey there! Welcome Back!!!
         </marquee>
     </div>
     <div class="home-button" align="center">
-        <a href="C:\Users\SWAPNIL\Documents\My Web Sites\CreditCource-sem4-20230425T082836Z-001\CreditCource-sem4\index.html"><input type="submit" value="Home" id="signup-home-btn"></a>
+        <a href="D:\SulajAcharya\Project Trials\CreditCourseSem4\index.html"><input type="submit" value="Home" id="signup-home-btn"></a>
         <a href="sign-up.html"><input type="submit" value="Sign Up" id="signup-home-btn"></a>
     </div>
     <div class="sign-up-main">
         <div class="sign-img">
-            <img src="welcome.png" alt="ImageNotLoading" height="490px" width="490px">
+            <img src="welcome.png" alt="ImageNotLoading" height="450px" width="450px">
         </div>
-        <div class="sign-up-form" align="center" style="margin:150px; font-size: 50px;"style="margin:150px; font-size: 30px;">
-            <table style="background-color: rgba(100, 100, 100, 0.5); border: black solid 3px;">
+        <div class="sign-up-form" align="center" style="font-size: 50px; margin-top: 100px;">
+            <table  style="background-color: rgba(0, 0, 0, 0.7); border: black solid 4px; border-radius: 10px; border-spacing: 10px;">
                 <tr>
-                    <td><font color="white">E-mail:</font></td>
+                    <td>E-mail:</td>
                     <td><input type="email" name="email" id="uemail"></td>
             </tr>
             <tr>
-                <td><font color="white">Password:</font></td>
+                <td>Password:</td>
                 <td><input type="password" pattern="*"></td>
             </tr>
         </table>
