@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Gallery of Europe </title>
+<style>
+body
+{
+	background-image: url("seawallpaper.jpg");
+	background-size: cover;
+	
+}
+* {box-sizing: border-box;}
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 205%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+    <marquee behavior="slide" direction ="left" scrollamount="100">
+        <a href="https://italiantripabroad.it/Blog/famous-landmarks-in-europe/#:~:text=Europe%20Famous%20Landmarks%201%20Eiffel%20tower%2C%20Paris%20%E2%80%93,Acropolis%20of%20Athens%20%E2%80%93%20Greece%20...%20More%20items" target="_blank"><b style="font-size:40px;color:rgb(24, 206, 222);">EUROPE</b></a><b style="font-size: 20px;color: white;">👈click this for more places</b><br>
+    <div class="row">
+        <div class="column">
+            <div class="container">
+                        <a href="https://en.wikipedia.org/wiki/Burano" target="_blank"><img src="e1.jpg" alt="Europe" width="500" height="310"></a>
+            
+              <div class="overlay">BURANO</div>
+            </div></div>
+            <div class="column">
+                <div class="container">
+                    <a href="https://en.wikipedia.org/wiki/Big_Ben" target="_blank"><img src="e2.jpg" alt="Europe" width="500" height="310"></a>
+                    <div class="overlay">BIG BEN</div>
+                </div>          </div>
+            <div class="column">
+                    <div class="container">
+                        <a href="https://en.wikipedia.org/wiki/Colosseum" target="_blank"><img src="e3.jpg" alt="Europe" width="500" height="310"><br></a>
+                        <div class="overlay">Colosseum</div>
+                    </div>
+            </div>
+        
+      </div>
+      <div class="row">
+        <div class="column">
+            <div class="container">
+                <a href="https://en.wikipedia.org/wiki/Aurora" target="_blank"><img src="e4.jpg" alt="Europe" width="500" height="310"></a>
+                        <div class="overlay">AURORA</div>
+            </div></div>
+            <div class="column">
+                <div class="container">
+                    <a href="https://en.wikipedia.org/wiki/Amsterdam" target="_blank"><img src="e5.jpg" alt="Europe" width="500" height="310"></a>
+                    <div class="overlay">AMSTERDAM</div>
+                </div>
+            </div>
+            <div class="column">
+                    <div class="container">
+                        <a href="https://en.wikipedia.org/wiki/Tuscany" target="_blank"><img src="e6.webp" alt="Europe" width="500" height="310"><br></a>
+                        <div class="overlay">TUSCANY</div>
+                    </div>
+            </div>
+        
+      </div>
+
+
+
+    </marquee>
+
+
+<marquee bgcolor="#0a6be1" style="color: #FFFFFF;font-size:30px; font-family: Book Antiqua;" behavior="alternate" > *Most Famous And Beautiful Places in Europe Continent*</marquee>
+
+  
+    
+</body>
+</html>

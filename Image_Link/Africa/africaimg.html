@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Gallery of Africa </title>
+<style>
+    body
+    {
+        background-image: url("seawallpaper.jpg");
+        background-size: cover;
+        
+    }
+    * {box-sizing: border-box;}
+    
+    .container {
+      position: relative;
+      width: 50%;
+      max-width: 300px;
+    }
+    
+    .image {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    
+    .overlay {
+      position: absolute; 
+      bottom: 0; 
+      background: rgb(0, 0, 0);
+      background: rgba(0, 0, 0, 0.5); /* Black see-through */
+      color: #f1f1f1; 
+      width: 205%;
+      transition: .5s ease;
+      opacity:0;
+      color: white;
+      font-size: 20px;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .container:hover .overlay {
+      opacity: 1;
+    }
+    
+    
+    
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+    
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    </style>
+    </head>
+<body>
+    <marquee behavior="slide" direction ="left" scrollamount="100">
+        <a href="https://www.cntraveler.com/gallery/the-50-most-beautiful-places-in-africa" target="_blank"><b style="font-size:40px;color:rgb(24, 206, 222);">AFRICA</b></a><b style="font-size: 20px;color: white;">👈click this for more places</b><br>
+    <div class="row">
+        <div class="column">
+            <div class="container">
+                <a href="https://en.wikipedia.org/wiki/Richtersveld" target="_blank"><img src="pristinmountain.jpg_large" alt="Africa" width="500" height="310"></a>
+                        <div class="overlay">RICHTERSVELD</div>
+            </div></div>
+            <div class="column">
+                <div class="container">
+                    <a href="https://en.wikipedia.org/wiki/Tanzania" target="_blank"><img src="af2.jpg" alt="Africa" width="500" height="310"></a>
+                    <div class="overlay">TANZANIA</div>
+                </div>
+            </div>
+            <div class="column">
+                    <div class="container">
+                        <a href="https://en.wikipedia.org/wiki/Union_Buildings" target="_blank"><img src="af3.jpg" alt="Africa" width="500" height="310"></a>
+                        <div class="overlay">UNION BUILDINGS</div>
+                    </div>
+            </div>
+        
+      </div>
+      <div class="row">
+        <div class="column">
+            <div class="container">
+                <a href="https://en.wikipedia.org/wiki/Botswana" target="_blank"><img src="botswanaplace.jpg" alt="Africa" width="500" height="310"></a>
+                        <div class="overlay">BOTSWANA</div>
+            </div></div>
+            <div class="column">
+                <div class="container">
+                    <a href="https://en.wikipedia.org/wiki/Madagascar" target="_blank"><img src="Madagascar.webp" alt="Africa" width="500" height="310"></a>
+                    <div class="overlay">MADAGASCAR</div>
+                </div>
+            </div>
+            <div class="column">
+                    <div class="container">
+                        <a href="https://en.wikipedia.org/wiki/Mount_Nyiragongo" target="_blank"><img src="Mount Nyiragongo.webp" width="500" height="310"><br></a>
+                        <div class="overlay">MOUNT NYIRAGONGO</div>
+                    </div>
+            </div>
+        
+      </div>
+
+
+
+    </marquee>
+<marquee bgcolor="#0a6be1" style="color: #FFFFFF;font-size:30px; font-family: Book Antiqua;" behavior="alternate" > *Most Famous And Beautiful Places in Africa Continent*</marquee>
+
+  
+    
+</body>
+</html>

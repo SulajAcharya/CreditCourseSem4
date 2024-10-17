@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign-up Page</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            background-image: url("login.jpg");
+            background-size: 1610px 1000px;
+        }
+        #signup-home-btn, .sign-btn{
+            padding: 5px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        .sign-up-form{
+            font-size: px;
+        }
+        .form-font{
+            color: white;
+        }
+        .sign-up-main{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <marquee bgcolor="#FFFFF7"  behavior="scroll" scrollamount=12 direction="right" style="font-size: 30px;">
+           Hey there! Welcome to Login page
+        </marquee>
+    </div>
+    <div class="home-button" align="center">
+        <a href="C:\Users\SWAPNIL\Documents\My Web Sites\CreditCource-sem4-20230425T082836Z-001\CreditCource-sem4\index.html"><input type="submit" value="Home" id="signup-home-btn"></a>
+        <a href="sign-up.html"><input type="submit" value="Sign Up" id="signup-home-btn"></a>
+    </div>
+    <div class="sign-up-main">
+        <div class="sign-img">
+            <img src="welcome.png" alt="ImageNotLoading" height="490px" width="490px">
+        </div>
+        <div class="sign-up-form" align="center" style="margin:150px; font-size: 50px;"style="margin:150px; font-size: 30px;">
+            <table style="background-color: rgba(100, 100, 100, 0.5); border: black solid 3px;">
+                <tr>
+                    <td><font color="white">E-mail:</font></td>
+                    <td><input type="email" name="email" id="uemail"></td>
+            </tr>
+            <tr>
+                <td><font color="white">Password:</font></td>
+                <td><input type="password" pattern="*"></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <input type="submit" value="Login" class="sign-btn" onclick="alert('Welcome back!')">
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Gallery of North America </title>
+<style>
+    body
+    {
+        background-image: url("seawallpaper.jpg");
+        background-size: cover;
+        
+    }
+    * {box-sizing: border-box;}
+    
+    .container {
+      position: relative;
+      width: 50%;
+      max-width: 300px;
+    }
+    
+    .image {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    
+    .overlay {
+      position: absolute; 
+      bottom: 0; 
+      background: rgba(0, 0, 0, 0.5); /* Black see-through */
+      color: #f1f1f1; 
+      width: 205%;
+      transition: .5s ease;
+      opacity:0;
+      color: white;
+      font-size: 20px;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .container:hover .overlay {
+      opacity: 1;
+    }
+    
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+    
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    </style>
+    </head>
+    <body>
+      <marquee behavior="slide" direction ="left" scrollamount="100">
+          <a href="https://www.ottawalife.com/article/10-magnificent-places-in-north-america-that-you-should-visit#:~:text=10%20Magnificent%20Places%20in%20North%20America%20That%20You,Orleans%20...%208%20San%20Francisco%20...%20More%20items" target="_blank"><b style="font-size:40px;color:rgb(24, 206, 222);">NORTH AMERICA</b></a><b style="font-size: 20px;color: white;">👈click this for more places</b><br>
+      <div class="row">
+          <div class="column">
+              <div class="container">
+                <a href="https://en.wikipedia.org/wiki/Brooklyn_Bridge" target="_blank"><img src="na1.jpg" alt="North America" width="500pxpx" height="300px"></a>
+              
+                <div class="overlay">BROOKLYN BRIDGE</div>
+              </div></div>
+              <div class="column">
+                  <div class="container">
+                    <a href="https://en.wikipedia.org/wiki/Go%C3%B0afoss" target="_blank"><img src="na2.jpg" alt="North America" width="500px" height="300px"></a>
+                    <div class="overlay">MARINA BAY SANDS</div>          </div></div>
+              <div class="column">
+                      <div class="container">
+                        <a href="https://en.wikipedia.org/wiki/Honningsv%C3%A5g" target="_blank"><img src="na3.jpg" alt="North America" width="500px" height="300px"><br></a>
+                          <div class="overlay">PURA ULUN DANU BRATAN</div>
+                      </div>
+              </div></div>
+
+              <div class="row">
+                <div class="column">
+                    <div class="container">
+                      <a href="https://en.wikipedia.org/wiki/Statue_of_Liberty" target="_blank"><img src="na4.jpg" alt="North America" width="500pxpx" height="300px"></a>
+                          <div class="overlay">STATUE OF LIBERTY</div>
+                    </div></div>
+                    <div class="column">
+                        <div class="container">
+                          <a href="https://en.wikipedia.org/wiki/New_York_City" target="_blank"><img src="na5.jpg" alt="North America" width="500px" height="300px"></a>
+                          <div class="overlay">NEW YORK CITY</div></div></div>
+                    <div class="column">
+                            <div class="container">
+                              <a href="https://en.wikipedia.org/wiki/Horseshoe_Bend_(Arizona)" target="_blank"><img src="na6.jpeg" alt="North America" width="500px" height="300px"><br></a>
+                          <div class="overlay">HORSESHOE BEND</div>
+                            </div>
+                    </div>
+
+              
+          
+        </div>   </div>            
+</marquee>
+                  
+</marquee>
+<marquee bgcolor="#0a6be1" style="color: #FFFFFF;font-size:30px; font-family: Book Antiqua;" behavior="alternate" > *Most Famous And Beautiful Places in North America Continent*</marquee>
+
+  
+    
+</body>
+</html>
